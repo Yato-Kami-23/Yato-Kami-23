@@ -6,11 +6,12 @@ if (input.value.trim() !== "") {
     let li = document.createElement("li");
     li.textContent = input.value.trim();
 
-    li.appendChild(Object.assign(document.createElement("button"), { 
-        textContent: " ❌", style: "margin-left: 10px; cursor: pointer;", 
-        onclick() { li.remove(); } 
-    }));
+    let removeBtn = document.createElement("button");
+        removeBtn.textContent = "❌";
+        removeBtn.classList.add("remove-btn");
+        removeBtn.onclick = () => li.remove();
 
+    li.appendChild(removeBtn);
     list.prepend(li);
     input.value = "";
 }

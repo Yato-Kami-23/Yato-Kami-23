@@ -1,45 +1,18 @@
 <!DOCTYPE html>
 <html>
     <title>To Do List</title>
-    <style>
-        body{
-            background-image: url("file:///C:/Users/Zenith/OneDrive/Pictures/IMG_20231002_224106.jpg");
-            background-size: 40%;
-            background-repeat: no-repeat;
-            background-position: center ;
-            background-position-y: 10px ;
-        }
-        input {
-            padding: 8px;
-            font-size: 16px;
-        }
-        button {
-            padding: 8px;
-            font-size: 16px;;
-            background-color: rgb(244, 238, 238);
-            color:rgb(227, 152, 38);
-            cursor: pointer;
-            border:none;
-        }
-        button:hover{
-            border:2px;
-            color:aquamarine;
-
-        }
-        .delete-btn {
-            background-color: red;
-            color: white;
-            border: none;
-            padding: 5px 10px;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+   
     <body>
         <p></p>
-        <h2>To Do List</h2>
-        <input id= 'listInput' placeholder = "Enter in your list" />
-        <button onclick = "addTask()">Add</button>
-        <ul id="taskList"></ul>
+    <div class="main-box">
+        <div class="main-box-2">
+            <h2>To Do List</h2>
+            <input id= 'listInput' placeholder = "Enter in your list" />
+            <button onclick = "addTask()">Add</button>
+            <ul id="taskList"></ul>
+        </div>
+    </div>
         
 
         <script src = "script.js"></script>

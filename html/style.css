@@ -1,0 +1,78 @@
+body{
+    background-image: url("file:///C:/Users/Zenith/OneDrive/Pictures/Screenshots/Screenshot%202025-01-09%20222310.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-position-y: 0px ;
+}
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:75vh;
+
+}
+.main-box-2{
+    background-color: white;
+    padding:20x;
+    border-radius:10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+    text-align: center;
+    width:400px
+}
+    
+button {
+    padding: 10px;
+    font-size: 16px;;
+    background-color:rgb(26, 151, 15);
+    color:rgb(13, 10, 6);
+    cursor: pointer;
+    border:none;
+    border-radius:10px;
+}
+button:hover{
+    border:2px;
+    background-color:aquamarine;
+
+}
+
+input, button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+li {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    margin: 10px 0; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.remove-btn {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
