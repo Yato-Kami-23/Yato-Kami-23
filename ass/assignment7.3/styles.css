@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    border-style: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --light_blue: rgb(37, 190, 190);
+    --dark_blue: rgb(20, 72, 92);
+    --very_light: rgb(169, 220, 232);
+}
+body{
+    background-color: var(--light_blue);
+}
+table{
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    border-collapse: collapse;
+    max-width: 1000px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px black;
+}
+th{
+    font-size: 25px;
+    background-color: var(--dark_blue);
+    color: white;
+    padding: 9px;
+}
+tr{
+    color: var(--dark_blue);
+    width: 160px;
+}
+tr:nth-child(1),
+td:nth-child(1) {
+  width: 100px;
+  text-align: center;
+    padding: 9px;
+}
+tr:nth-child(2),
+td:nth-child(2) {
+  width: 150px;
+}
+
+tr:nth-child(3),
+td:nth-child(3) {
+  width: 200px; /* Email */
+}
+
+tr:nth-child(4),
+td:nth-child(4) {
+  width: 120px; /* Phone */
+}
+tr:nth-child(5),
+td:nth-child(5) {
+  width: auto; /* Comment (takes remaining space) */
+}
+
+tr:nth-child(odd){
+    margin: auto;
+    background-color: var(--very_light);
+}
+tr:nth-child(even){
+    margin: auto;
+    background-color: white;
+}
+td:nth-child(2),td:nth-child(3),td:nth-child(4){
+    text-align: center;
+
+}
+td:nth-child(5){
+    padding : 20px;
+}
+img{
+    width: 70px;
+    height: 70px;
+    border: 2px black;
+    border-radius: 50px;
+}

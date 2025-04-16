@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    border-style: box;
+}
+table{
+    width: 600px;
+    height: 100px;
+    border: 2px solid black ;
+    justify-content: center;
+    margin: auto;
+    margin-top: 200px;
+    border-collapse: collapse;
+}
+th{
+    border: 2px solid black ;
+    text-align: center;
+    padding: 8px;  
+}
+tr,td{
+    border-right: 2px solid black;
+    text-align: center;
+    padding: 8px;  
+}
+
